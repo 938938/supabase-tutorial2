@@ -1,9 +1,9 @@
-import { Metadata } from 'next';
+import UI from "./UI";
 
-export const metadata: Metadata = {
-  title: 'tile',
+export const metadata = {
+  title: 'Minibox',
+  description: 'A minimalistic Dropbox clone',
 };
-
 export default function Home() {
-  return <main>dropbox</main>;
+  return <UI />;
 }
